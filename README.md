@@ -3,7 +3,7 @@
 This repository contains examples of deep generative models:
 1. Autoregressive Models (ARMs)
 
-The examples might look oversimplistic but that's the point! My idea is that everyone is able to follow every line of the code, and run the experiments within a couple of minutes on almost any laptop or computer. My goal is to encourage people who are new to understand and play with deep generative models. More advanced users, on the other hand, could refresh their knowledge or build on top of that to quickly check their ideas. Either way, I hope the code will help everyone to join a fascinating journey of deep generative modeling!
+The examples might look oversimplistic but that's the point! My idea is that everyone is able to follow every line of the code, and run the experiments within a couple of minutes on almost any laptop or computer. My goal is to encourage people who are new to understand and play with deep generative models. More advanced users, on the other hand, could refresh their knowledge or build on top of that to quickly check their ideas. Either way, I hope the code will help everyone to join a fascinating journey on deep generative modeling!
 
 # Requirements
 In all examples, we used:
