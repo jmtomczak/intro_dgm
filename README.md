@@ -5,6 +5,7 @@ This repository contains examples of deep generative models:
 2. Flow-based models (flows): RealNVP and IDFs (Integer Discrete Flows)
 3. Variational Auto-Encoders (VAEs): a plain VAE and various priors
 4. Hybrid modeling
+5. Neural Compression with Deep Generative Modeling
 
 The examples might look oversimplistic but that's the point! My idea is that everyone is able to follow every line of the code, and run the experiments within a couple of minutes on almost any laptop or computer. My goal is to encourage people who are new to understand and play with deep generative models. More advanced users, on the other hand, could refresh their knowledge or build on top of that to quickly check their ideas. Either way, I hope the code will help everyone to join a fascinating journey on deep generative modeling!
 
@@ -24,6 +25,7 @@ All examples of implemented deep generative models are provided as jupyter noteb
 2. `flows`: an example of a flow-based model, namely, RealNVP with coupling layers and permutation layers, and IDFs (Integer Discrete Flows).
 3. `vaes`: an example of a Variational Auto-Encoder using fully-connected layers and a standard Gaussian prior, and another example of various priors for VAEs.
 4. `hybrid_modeling`: an example of a hybrid model using fully-connected layers and IDFs.
+5. `neural_compression`: an example of applying deep generative modeling for image neural compression.
 
 
 # Citation
