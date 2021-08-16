@@ -3,7 +3,7 @@
 This repository contains examples of deep generative models:
 1. Autoregressive Models (ARMs)
 2. Flow-based models (flows): RealNVP and IDFs (Integer Discrete Flows)
-3. Variational Auto-Encoders (VAEs): a plain VAE and various priors
+3. Variational Auto-Encoders (VAEs): a plain VAE and various priors, a hierarchical VAE
 4. Hybrid modeling
 5. Neural Compression with Deep Generative Modeling
 
@@ -23,7 +23,7 @@ In all examples, we used:
 All examples of implemented deep generative models are provided as jupyter notebooks. They can be find in the following folders:
 1. `arms`: an example of an autoregressive model with a causal convolutiona layer in 1D.
 2. `flows`: an example of a flow-based model, namely, RealNVP with coupling layers and permutation layers, and IDFs (Integer Discrete Flows).
-3. `vaes`: an example of a Variational Auto-Encoder using fully-connected layers and a standard Gaussian prior, and another example of various priors for VAEs.
+3. `vaes`: an example of a Variational Auto-Encoder using fully-connected layers and a standard Gaussian prior, and another example of various priors for VAEs, and a third example on a hierarchical VAE.
 4. `hybrid_modeling`: an example of a hybrid model using fully-connected layers and IDFs.
 5. `neural_compression`: an example of applying deep generative modeling for image neural compression.
 
