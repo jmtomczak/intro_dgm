@@ -25,7 +25,7 @@ All examples of implemented deep generative models are provided as jupyter noteb
 1. `arms`: an example of an autoregressive model with a causal convolutiona layer in 1D.
 2. `flows`: an example of a flow-based model, namely, RealNVP with coupling layers and permutation layers, and IDFs (Integer Discrete Flows).
 3. `vaes`: an example of a Variational Auto-Encoder using fully-connected layers and a standard Gaussian prior, and another example of various priors for VAEs, and a third example on a hierarchical VAE.
-4. 'ddgms': an example of a Dissusion-based Deep Generative Model using the a Gaussian forward diffusion with a fixed variace and a reverse diffusion parameterized by MLPs.
+4. `ddgms`: an example of a Dissusion-based Deep Generative Model using the a Gaussian forward diffusion with a fixed variace and a reverse diffusion parameterized by MLPs.
 5. `hybrid_modeling`: an example of a hybrid model using fully-connected layers and IDFs.
 6. `neural_compression`: an example of applying deep generative modeling for image neural compression.
 
