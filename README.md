@@ -31,7 +31,7 @@ All examples of implemented deep generative models are provided as jupyter noteb
 5. `hybrid_modeling`: an example of a hybrid model using fully-connected layers and IDFs.
 6. `ebms`: an example of an energy-based model parameterized by an MLP.
 7. `gans`: an example of a GAN parameterized by MLPs.
-8. `neural_compression`: an example of applying deep generative modeling for image neural compression.
+8. `neural_compression`: an example of applying deep generative modeling to image neural compression.
 
 
 # Citation
