@@ -1,4 +1,4 @@
-# Introduction to Deep Generative Modeling: Examples
+# Deep Generative Modeling: Examples
 
 This repository contains examples of deep generative models:
 1. Autoregressive Models (ARMs)
@@ -38,13 +38,14 @@ All examples of implemented deep generative models are provided as jupyter noteb
 If you use this code in any way, please refer to it in the following manner:
 - APA style:
 ```
-Tomczak, J. M. (2021). Deep Generative Modeling.
+Tomczak, J. M. (2022). Deep Generative Modeling.
 ```
 - Bibtex:
 ```
-@article{tomczak2021intro,
+@book{tomczak2021intro,
   title={Deep Generative Modeling},
   author={Tomczak, Jakub M},
-  year={2021}
+  publisher={Springer},
+  year={2022}
 }
 ```
