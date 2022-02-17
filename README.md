@@ -1,4 +1,4 @@
-# Deep Generative Modeling: Examples
+# Deep Generative Modeling: Introductory Examples
 
 This repository contains examples of deep generative models:
 1. Autoregressive Models (ARMs)
