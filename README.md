@@ -35,7 +35,7 @@ All examples of implemented deep generative models are provided as jupyter noteb
 
 
 # Citation
-If you use this code in any way, please refer to it by citing my boom <a href="https://link.springer.com/book/10.1007/978-3-030-93158-2">"Deep Generative Modeling"</a>:
+If you use this code in any way, please refer to it by citing my book <a href="https://link.springer.com/book/10.1007/978-3-030-93158-2">"Deep Generative Modeling"</a>:
 - APA style:
 ```
 Tomczak, J. M. (2022). Deep Generative Modeling. Springer Nature
