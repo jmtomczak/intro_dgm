@@ -1,6 +1,6 @@
-# Deep Generative Modeling: Introductory Examples
+# <a href="https://link.springer.com/book/10.1007/978-3-030-93158-2">"Deep Generative Modeling"</a>: Introductory Examples
 
-This repository contains examples of deep generative models:
+This repository contains examples of deep generative models for the book <a href="https://link.springer.com/book/10.1007/978-3-030-93158-2">"Deep Generative Modeling"</a>:
 1. Autoregressive Models (ARMs)
 2. Flow-based models (flows): RealNVP and IDFs (Integer Discrete Flows)
 3. Variational Auto-Encoders (VAEs): a plain VAE and various priors, a hierarchical VAE
@@ -35,17 +35,17 @@ All examples of implemented deep generative models are provided as jupyter noteb
 
 
 # Citation
-If you use this code in any way, please refer to it in the following manner:
+If you use this code in any way, please refer to it by citing my boom <a href="https://link.springer.com/book/10.1007/978-3-030-93158-2">"Deep Generative Modeling"</a>:
 - APA style:
 ```
-Tomczak, J. M. (2022). Deep Generative Modeling.
+Tomczak, J. M. (2022). Deep Generative Modeling. Springer Nature
 ```
 - Bibtex:
 ```
-@book{tomczak2021intro,
+@book{tomczak2022deep,
   title={Deep Generative Modeling},
   author={Tomczak, Jakub M},
-  publisher={Springer},
+  publisher={Springer Nature},
   year={2022}
 }
 ```
