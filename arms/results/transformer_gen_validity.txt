@@ -1,0 +1,1 @@
+The percentage of valid molecules: 0.6235408560311284
