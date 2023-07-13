@@ -1,7 +1,7 @@
 # <a href="https://link.springer.com/book/10.1007/978-3-030-93158-2">"Deep Generative Modeling"</a>: Introductory Examples
 
 This repository contains examples of deep generative models for the book <a href="https://link.springer.com/book/10.1007/978-3-030-93158-2">"Deep Generative Modeling"</a>:
-1. Autoregressive Models (ARMs)
+1. Autoregressive Models (ARMs): ARMs parameterized with Causal Convolutionas and Transformers
 2. Flow-based models (flows): RealNVP and IDFs (Integer Discrete Flows)
 3. Variational Auto-Encoders (VAEs): a plain VAE and various priors, a hierarchical VAE
 4. Diffusion-based Deep Generative Models (DDGMs): a Gaussian forward diffusion
@@ -24,7 +24,7 @@ In all examples, we used:
 
 # Examples
 All examples of implemented deep generative models are provided as jupyter notebooks. They can be find in the following folders:
-1. `arms`: an example of an autoregressive model with a causal convolutiona layer in 1D.
+1. `arms`: an example of an autoregressive model with a causal convolutiona layer in 1D and transformers.
 2. `flows`: an example of a flow-based model, namely, RealNVP with coupling layers and permutation layers, and IDFs (Integer Discrete Flows).
 3. `vaes`: an example of a Variational Auto-Encoder using fully-connected layers and a standard Gaussian prior, and another example of various priors for VAEs, and a third example on a hierarchical VAE.
 4. `ddgms`: an example of a Diffusion-based Deep Generative Model using the a Gaussian forward diffusion with a fixed variace and a reverse diffusion parameterized by MLPs.
