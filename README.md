@@ -11,6 +11,7 @@ This repository contains examples of deep generative models for the book <a href
 8. Energy-based Models
 9. Generative Adversarial Networks (GANs)
 10. Neural Compression with Deep Generative Modeling
+11. Large Language Models (LLMs)
 
 The examples might look oversimplistic but that's the point! My idea is that everyone is able to follow every line of the code, and run the experiments within a couple of minutes on almost any laptop or computer. My goal is to encourage people who are new to understand and play with deep generative models. More advanced users, on the other hand, could refresh their knowledge or build on top of that to quickly check their ideas. Either way, I hope the code will help everyone to join a fascinating journey on deep generative modeling!
 
@@ -36,6 +37,7 @@ All examples of implemented deep generative models are provided as jupyter noteb
 8. `ebms`: an example of an energy-based model parameterized by an MLP.
 9. `gans`: an example of a GAN parameterized by MLPs.
 10. `neural_compression`: an example of applying deep generative modeling to image neural compression.
+11. `llms`: an example of a decoder-based transformer (an LLM; here we call it teenyGPT.
 
 
 # Citation
