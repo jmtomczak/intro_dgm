@@ -1,6 +1,6 @@
-# <a href="https://link.springer.com/book/10.1007/978-3-030-93158-2">"Deep Generative Modeling"</a>: Introductory Examples
+# <a href="https://link.springer.com/book/10.1007/978-3-031-64087-2" target="_blank">"Deep Generative Modeling"</a>: Introductory Examples
 
-This repository contains examples of deep generative models for the book <a href="https://link.springer.com/book/10.1007/978-3-030-93158-2">"Deep Generative Modeling"</a>:
+This repository contains examples of deep generative models for the book <a href="https://link.springer.com/book/10.1007/978-3-031-64087-2" target="_blank">"Deep Generative Modeling"</a>:
 1. Mixture of Gaussians (MoGs): a mixture of Gaussians 
 2. Autoregressive Models (ARMs): ARMs parameterized with Causal Convolutionas and Transformers
 3. Flow-based models (flows): RealNVP and IDFs (Integer Discrete Flows)
@@ -41,17 +41,17 @@ All examples of implemented deep generative models are provided as jupyter noteb
 
 
 # Citation
-If you use this code in any way, please refer to it by citing my book <a href="https://link.springer.com/book/10.1007/978-3-030-93158-2">"Deep Generative Modeling"</a>:
+If you use this code in any way, please refer to it by citing my book <a href="https://link.springer.com/book/10.1007/978-3-031-64087-2" target="_blank">"Deep Generative Modeling"</a>:
 - APA style:
 ```
-Tomczak, J. M. (2022). Deep Generative Modeling. Springer Nature
+Tomczak, J. M. (2024). Deep Generative Modeling. Springer Cham
 ```
 - Bibtex:
 ```
-@book{tomczak2022deep,
+@book{tomczak2024deep,
   title={Deep Generative Modeling},
   author={Tomczak, Jakub M},
-  publisher={Springer Nature},
-  year={2022}
+  publisher={Springer Cham},
+  year={2024}
 }
 ```
