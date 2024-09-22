@@ -1,5 +1,8 @@
 # <a href="https://link.springer.com/book/10.1007/978-3-031-64087-2" target="_blank">"Deep Generative Modeling"</a>: Introductory Examples
 
+<img src="1726858979519.jpeg" alt="Deep Generative Modeling">
+
+
 This repository contains examples of deep generative models for the book <a href="https://link.springer.com/book/10.1007/978-3-031-64087-2" target="_blank">"Deep Generative Modeling"</a>:
 1. Mixture of Gaussians (MoGs): a mixture of Gaussians 
 2. Autoregressive Models (ARMs): ARMs parameterized with Causal Convolutionas and Transformers
