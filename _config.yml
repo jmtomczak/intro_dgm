@@ -1,4 +1,8 @@
 theme: jekyll-theme-minimal
-
 title: "Deep Generative Modeling"
-description: "Code repository for the book ''Deep Generative Modeling'' (Springer Cham, 2024)"
+description: "Code repository for the book 'Deep Generative Modeling' (Springer Cham, 2024)"
+author: "Jakub M. Tomczak"
+url: "https://jmtomczak.github.io"
+baseurl: "/intro_dgm"
+markdown: kramdown
+highlighter: rouge
