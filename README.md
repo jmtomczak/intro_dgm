@@ -32,7 +32,7 @@ B. Useful Facts from Probability Theory and Statistics<br>
 
 
 # Where to buy this book?
-<a href="https://link.springer.com/book/10.1007/978-3-031-64087-2" target="_blank">Springer</a> <a href="https://www.amazon.com/Deep-Generative-Modeling-Jakub-Tomczak/dp/B0D4TR44GC/ref=pd_lpo_d_sccl_1/141-8785977-2759647?pd_rd_w=iL2rQ&content-id=amzn1.sym.4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_p=4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_r=4WYYB5T34DKDSVX6XM9M&pd_rd_wg=jAwdr&pd_rd_r=65b42a42-54af-4529-af17-39c1822dc745&pd_rd_i=B0D4TR44GC&psc=1" target="_blank">Amazong</a>
+<a href="https://link.springer.com/book/10.1007/978-3-031-64087-2" target="_blank">[Springer](https://link.springer.com/oscar-static/images/darwin/header/img/logo-springer-nature-link-3149409f62.svg)</a> <a href="https://www.amazon.com/Deep-Generative-Modeling-Jakub-Tomczak/dp/B0D4TR44GC/ref=pd_lpo_d_sccl_1/141-8785977-2759647?pd_rd_w=iL2rQ&content-id=amzn1.sym.4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_p=4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_r=4WYYB5T34DKDSVX6XM9M&pd_rd_wg=jAwdr&pd_rd_r=65b42a42-54af-4529-af17-39c1822dc745&pd_rd_i=B0D4TR44GC&psc=1" target="_blank">[Amazon](https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Amazon_2024.svg/500px-Amazon_2024.svg.png)</a>
 
 
 # Introductory examples to Deep Generative Models
