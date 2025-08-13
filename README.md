@@ -1,6 +1,6 @@
 # <a href="https://link.springer.com/book/10.1007/978-3-031-64087-2" target="_blank">"Deep Generative Modeling"</a>
 
-<img src="1726858979519.jpeg" alt="Deep Generative Modeling">
+<img src="figures/1726858979519.jpeg" alt="Deep Generative Modeling">
 
 This first comprehensive book on models behind Generative AI has been thoroughly revised to cover all major classes of deep generative models: mixture models, Probabilistic Circuits, Autoregressive Models, Flow-based Models, Latent Variable Models, GANs, Hybrid Models, Score-based Generative Models, Energy-based Models, and Large Language Models. In addition, Generative AI Systems are discussed, demonstrating how deep generative models can be used for neural compression, among others.<br>
 
