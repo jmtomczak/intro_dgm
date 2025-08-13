@@ -51,17 +51,17 @@ In all examples, we used:
 
 # Examples
 All examples of implemented deep generative models are provided as jupyter notebooks. They can be find in the following folders:
-1. `mog`: an example of a mixture of Gaussians with equiprobable components or trainable component probabilities. 
-2. `arms`: an example of an autoregressive model with a causal convolutiona layer in 1D and transformers.
-3. `flows`: an example of a flow-based model, namely, RealNVP with coupling layers and permutation layers, and IDFs (Integer Discrete Flows).
-4. `vaes`: (i) an example of a Variational Auto-Encoder using fully-connected layers and a standard Gaussian prior, (ii) an example of various priors for VAEs, (iii) an example of a hierarchical VAE.
-5. `ddgms`: an example of a Diffusion-based Deep Generative Model using a Gaussian forward diffusion with a fixed variace and a reverse diffusion parameterized by an MLP.
-6. `sbgms`: (i) an example of a score model using the score matching method and an MLP-based score model, (ii) an example of an SDE-based diffusion model parameterized by an MLP, (iii) an example of a conditional flow matching model parameterized by an MLP.
-7. `hybrid_modeling`: an example of a hybrid model using fully-connected layers and IDFs.
-8. `ebms`: an example of an energy-based model parameterized by an MLP.
-9. `gans`: an example of a GAN parameterized by MLPs.
-10. `neural_compression`: an example of applying deep generative modeling to image neural compression.
-11. `llms`: an example of a decoder-based transformer (an LLM; here we call it teenyGPT.
+1. [`mog`](https://github.com/jmtomczak/intro_dgm/tree/main/mog): an example of a mixture of Gaussians with equiprobable components or trainable component probabilities. 
+2. [`arms`](https://github.com/jmtomczak/intro_dgm/tree/main/arms): an example of an autoregressive model with a causal convolutiona layer in 1D and transformers.
+3. [`flows`](https://github.com/jmtomczak/intro_dgm/tree/main/flows): an example of a flow-based model, namely, RealNVP with coupling layers and permutation layers, and IDFs (Integer Discrete Flows).
+4. [`vaes`](https://github.com/jmtomczak/intro_dgm/tree/main/vaes): (i) an example of a Variational Auto-Encoder using fully-connected layers and a standard Gaussian prior, (ii) an example of various priors for VAEs, (iii) an example of a hierarchical VAE.
+5. [`ddgms`](https://github.com/jmtomczak/intro_dgm/tree/main/ddgms): an example of a Diffusion-based Deep Generative Model using a Gaussian forward diffusion with a fixed variace and a reverse diffusion parameterized by an MLP.
+6. [`sbgms`](https://github.com/jmtomczak/intro_dgm/tree/main/sbgms): (i) an example of a score model using the score matching method and an MLP-based score model, (ii) an example of an SDE-based diffusion model parameterized by an MLP, (iii) an example of a conditional flow matching model parameterized by an MLP.
+7. [`hybrid_modeling`](https://github.com/jmtomczak/intro_dgm/tree/main/hybrid_modeling): an example of a hybrid model using fully-connected layers and IDFs.
+8. [`ebms`](https://github.com/jmtomczak/intro_dgm/tree/main/ebms): an example of an energy-based model parameterized by an MLP.
+9. [`gans`](https://github.com/jmtomczak/intro_dgm/tree/main/gans): an example of a GAN parameterized by MLPs.
+10. [`neural_compression`](https://github.com/jmtomczak/intro_dgm/tree/main/neural_compression): an example of applying deep generative modeling to image neural compression.
+11. [`llms`](https://github.com/jmtomczak/intro_dgm/tree/main/llms): an example of a decoder-based transformer (an LLM; here we call it teenyGPT).
 
 
 # Citation
