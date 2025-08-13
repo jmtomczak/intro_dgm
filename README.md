@@ -63,6 +63,13 @@ All examples of implemented deep generative models are provided as jupyter noteb
 10. [`neural_compression`](https://github.com/jmtomczak/intro_dgm/tree/main/neural_compression): an example of applying deep generative modeling to image neural compression.
 11. [`llms`](https://github.com/jmtomczak/intro_dgm/tree/main/llms): an example of a decoder-based transformer (an LLM; here we call it teenyGPT).
 
+# Teaching
+For teaching purposes, please find the following material:
+1. [`assignments_examples`](https://github.com/jmtomczak/intro_dgm/tree/main/teaching/assignments_examples): three examples of assignments: (i) for ARMs, (ii) for VAEs, (iii) for a group assignment;
+2. [`figures`](https://github.com/jmtomczak/intro_dgm/tree/main/teaching/figures): for all teachers, if you need to prepare your lectures, you can find some useful figures here.
+
+Please do not forget to cite the book as the source. Thank you!
+
 
 # Citation
 If you use this code in any way, please refer to it by citing my book <a href="https://link.springer.com/book/10.1007/978-3-031-64087-2" target="_blank">"Deep Generative Modeling"</a>:

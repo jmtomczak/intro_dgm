@@ -1,0 +1,124 @@
+\documentclass[a4 paper]{article}
+% Set target color model to RGB
+\usepackage[inner=2.0cm,outer=2.0cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage[rgb]{xcolor}
+\usepackage{verbatim}
+\usepackage{subcaption}
+\usepackage{amsgen,amsmath,amstext,amsbsy,amsopn,amssymb}
+\usepackage{fancyhdr}
+\usepackage[natbibapa]{apacite} 
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=blue, citecolor=blue]{hyperref}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{rotating}
+%\usetikzlibrary{through,backgrounds}
+\hypersetup{%
+pdfauthor={Ashudeep Singh},%
+pdftitle={Homework},%
+pdfkeywords={Tikz,latex,bootstrap,uncertaintes},%
+pdfcreator={PDFLaTeX},%
+pdfproducer={PDFLaTeX},%
+}
+%\usetikzlibrary{shadows}
+% \usepackage[francais]{babel}
+\usepackage{booktabs}
+\input{macros.tex}
+
+% Changelog
+% 26 Oct. First version
+% 30 Oct. Removed page length indicators. Added appendix, question section and some extra explanations.
+%
+
+% BEGIN DOCUMENT
+\begin{document}
+\homework{Report Assignment 2}{Teacher Name}{[Student Name]}{[Student Id]}
+
+Please provide (concise) answers to the questions below. If you do not know an answer, please leave it blank. If necessary, please provide a (relevant) code snippet. If relevant, please remember to support your claims with data/figures.
+
+% SECTION
+\subsection*{Question 1 (1pt)} 
+\textit{Please explain the reparameterization trick and provide a mathematical formula for it.}
+
+\paragraph{Answer} [Your answer comes here. If you don't know the answer, please leave it blank.]
+
+% SECTION
+\subsection*{Question 2 (2pts)}
+\textit{Please write down mathematically the log-probability of the encoder (variational posterior) for a Gaussian distribution with a diagonal covariance matrix.}
+
+\paragraph{Answer} [Your answer comes here. If you don't know the answer, please leave it blank.]
+
+% SECTION
+\subsection*{Question 3 (4pts)}
+\textit{Please do the following:
+\begin{enumerate}
+    \item (1pt) Please explain your choice of the distribution (the conditional likelihood) for image data used in this assignment. Please remember to motivate it properly!
+    \item (1pt) Please write the conditional likelihood down mathematically (i.e., present it as the log-probability).
+    \item (2pts) Please explain how one can sample from the distribution chosen by you. Please provide a mathematical formula and a code snippet.
+\end{enumerate}}
+
+\paragraph{Answer} [Your answer comes here. If you don't know the answer, please leave it blank.]
+
+% SECTION
+\subsection*{Question 4 (3pts)}
+\textit{Please do the following:
+\begin{enumerate}
+    \item (1pt) Please explain your prior and write it down mathematically.
+    \item (1pt) Please write down its sampling procedure (incl. a code snippet).
+    \item (1pt) Please write down its log-probability (a mathematical formula).
+\end{enumerate}}
+
+\paragraph{Answer} [Your answer comes here. If you don't know the answer, please leave it blank.]
+
+% SECTION
+\subsection*{Question 5 (1pt)}
+\textit{Please derive the Negative ELBO including intermediate steps (be as specific as possible).}
+
+\paragraph{Answer} [Your answer comes here. If you don't know the answer, please leave it blank.]
+
+% SECTION
+\subsection*{Question 6 (1pt)}
+\textit{Please explain your choice of the optimizer, and comment on the choice of the hyperparameters (e.g., the learning rate value).}
+
+\paragraph{Answer} [Your answer comes here. If you don't know the answer, please leave it blank.]
+
+% SECTION
+\subsection*{Question 7 (1pt)}
+\textit{Please show 16 real images and the final 16 generated images from a fully-trained model. By looking at the generations, was the model properly trained? Please motivate your answer well.}
+
+\paragraph{Answer} [Your answer comes here. If you don't know the answer, please leave it blank.]
+
+% SECTION
+\subsection*{Question 8 (3pts)}
+\textit{Please provide answers to the following questions:
+\begin{enumerate}
+    \item (1pt) What are the potential problems with evaluating generative models by looking at generated data?
+    \item (2pts) How can we evaluate the perceptual quality of generative models (NOTE: ELBO or NLL do not count as answers)? Please provide two specific quantitative metrics (mathematical formulas and explanations). At most two, 1pt per metric.
+\end{enumerate}}
+
+\paragraph{Answer} [Your answer comes here. If you don't know the answer, please leave it blank.]
+
+% SECTION
+\subsection*{Question 9 (4pt)}
+\textit{After training, a validation loss curve is plotted. Please comment on the following:
+\begin{enumerate}
+    \item (1pt) Please add the plot. Based on that plot, can you say that the training of your VAE is stable or unstable? Why?
+    \item (3pts) Please run your model with three different sets of hyperparameters. Are the hyperparameter values of the optimizer important and how do they influence the training? Motivate well your answer (e.g., run the script with three values of the learning rate, present three plots here and provide a discussion).
+\end{enumerate}}
+
+\paragraph{Answer} [Your answer comes here. If you don't know the answer, please leave it blank.]
+
+% SECTION
+\newpage
+References\\
+Indicate papers/books you used for the assignment. References are unlimited. I suggest to use \texttt{bibtex} and add sources to \texttt{literature.bib}. An example citation would be \cite{tomczak2022deep} for the running text or otherwise \citep{tomczak2022deep}.
+
+\renewcommand\bibliographytypesize{\small}
+\bibliographystyle{apalike}
+\bibliography{literature.bib}
+
+\appendix
+\section*{Appendix}
+
+The TAs may look at what you put here, \textbf{but they're not obliged to}. This is a good place for, e.g., extra code snippets, additional plots, hyperparameter details, etc.
+
+\end{document} 

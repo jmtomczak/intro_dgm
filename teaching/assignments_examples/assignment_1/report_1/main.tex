@@ -1,0 +1,96 @@
+\documentclass[a4 paper]{article}
+% Set target color model to RGB
+\usepackage[inner=2.0cm,outer=2.0cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage[rgb]{xcolor}
+\usepackage{verbatim}
+\usepackage{subcaption}
+\usepackage{amsgen,amsmath,amstext,amsbsy,amsopn,amssymb}
+\usepackage{fancyhdr}
+\usepackage[natbibapa]{apacite} 
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=blue, citecolor=blue]{hyperref}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{rotating}
+%\usetikzlibrary{through,backgrounds}
+\hypersetup{%
+pdfauthor={Ashudeep Singh},%
+pdftitle={Homework},%
+pdfkeywords={Tikz,latex,bootstrap,uncertaintes},%
+pdfcreator={PDFLaTeX},%
+pdfproducer={PDFLaTeX},%
+}
+%\usetikzlibrary{shadows}
+% \usepackage[francais]{babel}
+\usepackage{booktabs}
+\input{macros.tex}
+
+\usepackage{minted}
+
+% Changelog
+% 26 Oct. First version
+% 30 Oct. Removed page length indicators. Added appendix, question section and some extra explanations.
+%
+
+% BEGIN DOCUMENT
+\begin{document}
+\homework{Report Assignment 1}{Teacher Name}{[Student Name]}{[Student Id]}
+
+Please provide (concise) answers to the questions below. If you do not know an answer, please leave it blank. If necessary, please provide a (relevant) code snippet. If relevant, please remember to support your claims with data/figures.
+
+% SECTION
+\subsection*{Question 1 (4pts)} 
+\textit{Please explain the following (if possible, please use mathematical formulas and formal explanations):
+\begin{enumerate}
+    \item (1pt) What is the role of the embedding layer in decoder-transformers?
+    \item (1pt) Why do we need to use positional embedding in decoder-transformers for sequential data?
+    \item (1pt) Please explain the sampling scheme in decoder-transformers. Please refer to the code of \mintinline{Python}{DecoderTransformer}.
+    \item (1pt) Please explain the reason for slicing in the forward function of \mintinline{Python}{DecoderTransformer} (please refer to the code for details).
+\end{enumerate}}
+
+\paragraph{Answer} [Your answer comes here. If you don't know the answer, please leave it blank.]
+
+% SECTION
+\subsection*{Question 2 (8pts)} 
+\textit{Please define \textbf{four} models that have: $<100$k weights, $\sim 500$k weights, $\sim$5M weights, and $>10$M weights and provide hyperparameters for them in the report. \\
+Please train all four models. Then:
+\begin{enumerate}
+    \item (2pts) Please present final plots of NLL and top-1 reconstruction accuracy for all of them. Compare them and discuss. Please think of as many various aspects as possible.
+    \item (2pts) Regarding NLL and top-1 reconstruction accuracy, do you see a correlation between these two metrics? Please motivate your answer (e.g., quantitatively using Pearson correlation coefficient).
+    \item (2pts) Please present the final sampled texts for all four models. Please comment and discuss the results.
+    \item (2pts) For the trained $>10$M model, analyze sampled texts during training. Please provide a discussion (e.g., the quality in the first epochs vs. the quality in the final epochs).
+\end{enumerate}}
+
+\paragraph{Answer} [Your answer comes here. If you don't know the answer, please leave it blank.]
+
+% SECTION
+\subsection*{Question 3 (6pts)}
+\textit{Train a $>10$M model with only 1000 texts (in the code: set \mintinline{Python}{num_training_data = 1000}). Then:
+\begin{enumerate}
+    \item (2pts) Please present final plots of NLL and top-1 reconstruction accuracy for this model and compare them with the trained $>10$M model on all data. Please provide a discussion.
+    \item (2pts) Please analyze sampled texts during training and provide a discussion.
+    \item (2pts) Please present the final sampled texts of this model and the trained $>10$M model, and provide a discussion.
+\end{enumerate}}
+
+\paragraph{Answer} [Your answer comes here. If you don't know the answer, please leave it blank.]
+
+% SECTION
+\subsection*{Question 4 (2pts)}
+\textit{Please take the trained $>10$M model on all data and present sampled texts for different temperature values, namely, $0.01, 0.1, 0.5, 0.8, 1.0$. What are the differences? Why? Please be as specific as possible (e.g., motivate it mathematically).}
+
+\paragraph{Answer} [Your answer comes here. If you don't know the answer, please leave it blank.]
+
+% SECTION
+\newpage
+References\\
+Indicate papers/books you used for the assignment. References are unlimited. I suggest to use \texttt{bibtex} and add sources to \texttt{literature.bib}. An example citation would be \cite{tomczak2022deep} for the running text or otherwise \citep{tomczak2022deep}.
+
+\renewcommand\bibliographytypesize{\small}
+\bibliographystyle{apalike}
+\bibliography{literature.bib}
+
+\appendix
+\section*{Appendix}
+
+The TAs may look at what you put here, \textbf{but they're not obliged to}. This is a good place for, e.g., extra code snippets, additional plots, hyperparameter details, etc.
+
+\end{document} 

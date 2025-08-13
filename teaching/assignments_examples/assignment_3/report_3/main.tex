@@ -1,0 +1,91 @@
+\documentclass[a4 paper]{article}
+% Set target color model to RGB
+\usepackage[inner=2.0cm,outer=2.0cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage[rgb]{xcolor}
+\usepackage{verbatim}
+\usepackage{subcaption}
+\usepackage{amsgen,amsmath,amstext,amsbsy,amsopn,amssymb}
+\usepackage{fancyhdr}
+\usepackage[natbibapa]{apacite} 
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=blue, citecolor=blue]{hyperref}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{rotating}
+%\usetikzlibrary{through,backgrounds}
+\hypersetup{%
+pdfauthor={Ashudeep Singh},%
+pdftitle={Homework},%
+pdfkeywords={Tikz,latex,bootstrap,uncertaintes},%
+pdfcreator={PDFLaTeX},%
+pdfproducer={PDFLaTeX},%
+}
+%\usetikzlibrary{shadows}
+% \usepackage[francais]{babel}
+\usepackage{booktabs}
+\input{macros.tex}
+
+% Changelog
+% 26 Oct. First version
+% 30 Oct. Removed page length indicators. Added appendix, question section and some extra explanations.
+%
+
+% BEGIN DOCUMENT
+\begin{document}
+\homework{Report Assignment 3}{Teacher Name}{[Student 1 Name]}{[Student 1 Id]}
+{[Student 2 Name]}{[Student 2 Id]}{[Student 3 Name]}{[Student 3 Id]}
+
+% SECTION
+\section{Assignment description}
+
+\paragraph{General} In this assignment, you will learn how to state a problem, formulate a deep generative model, and analyze its performance. Unlike in the first two assignments, you are asked here to carry out all steps by yourself. The assignment is realized in groups of 3.
+
+\paragraph{Goals} This assignment is supposed to achieve the following learning goals:
+\begin{itemize}
+    \item Find a problem suitable for generative modeling.
+    \item Analyze a chosen problem and its accompanying data.
+    \item Formulate a solution to the stated problem, i.e., a generative model and its parameterization (a neural network).
+    \item Implement your solution, design an evaluation procedure, and carry out experiments.
+    \item Analyze and present your results.
+    \item Draw conclusions: Please answer your research goals.
+    \item Work in a group (e.g., divide tasks, manage your code like version control, and make decisions).
+\end{itemize}
+
+\paragraph{Submission} The final report is supposed to be submitted to Canvas.
+
+\newpage
+% SECTION
+\section{Report}
+
+% SECTION
+\subsection{Problem description (10pts)} 
+% SubSubSECTION
+\subsubsection{Problem statement} 
+\textit{Please describe a problem you chose. What is the data modality? Why is generative modeling suitable for this problem? What do you want to achieve at the end (i.e., what are your research goals? How are you going to measure the performance (i.e., metrics)?}
+
+% SubSubSECTION
+\subsubsection{Data description}
+\textit{Please provide an analysis of chosen data (e.g., statistics, visualizations).}
+
+% SECTION
+\subsection{Methods and the proposed solution (10pts)}
+\textit{Please choose a generative model and design its parameterization. Please use visualizations if possible and be as formal as possible.}
+
+% SECTION
+\subsection{Results \& discussion (10pts)}
+\textit{Please present your results (use figures and tables if possible) and conclude your work. Did you achieve your goals? What are the potential future steps if you had more time?}
+
+% SECTION
+\newpage
+References\\
+Indicate papers/books you used for the assignment. References are unlimited. I suggest to use \texttt{bibtex} and add sources to \texttt{literature.bib}. An example citation would be \cite{tomczak2022deep} for the running text or otherwise \citep{tomczak2022deep}.
+
+\renewcommand\bibliographytypesize{\small}
+\bibliographystyle{apalike}
+\bibliography{literature.bib}
+
+\appendix
+\section*{Appendix}
+
+The TAs may look at what you put here, \textbf{but they're not obliged to}. This is a good place for, e.g., extra code snippets, additional plots, hyperparameter details, etc.
+
+\end{document} 
