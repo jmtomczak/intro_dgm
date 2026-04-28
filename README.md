@@ -14,17 +14,17 @@ The aim of the book is to outline the most important techniques in deep generati
 <b>Foreword</b> by <a href="https://scholar.google.com/citations?user=8200InoAAAAJ&hl=en" target="_blank">Prof. Max Welling</a><br>
 <b>Preface</b><br>
 
-1. Mixture of Gaussians (MoGs): a mixture of Gaussians 
-2. Autoregressive Models (ARMs): ARMs parameterized with Causal Convolutionas and Transformers
-3. Flow-based models (flows): RealNVP and IDFs (Integer Discrete Flows)
-4. Variational Auto-Encoders (VAEs): a plain VAE and various priors, a hierarchical VAE
-5. Diffusion-based Deep Generative Models (DDGMs): a Gaussian forward diffusion
-6. Score-based Generative Models (SBGMs): score matching, score-based generative models, (conditional) flow matching
-7. Hybrid modeling
-8. Energy-based Models
-9. Generative Adversarial Networks (GANs)
-10. Neural Compression with Deep Generative Modeling
-11. Large Language Models (LLMs)
+1. Why Deep Generative Modeling?
+2. Probabilistic Modeling: From Mixture Models to Probabilistic Circuits
+3. Autoregressive Models
+4. Flow-Based Models
+5. Latent Variable Models
+6. Hybrid Modeling
+7. Energy-Based Models
+8. Generative Adversarial Networks
+9. Score-Based Generative Models
+10. Deep Generative Modeling for Neural Compression
+11. From Large Language Models to Generative AI Systems
 
 <b>Appendix</b><br>
 A. Useful Facts from Algebra and Calculus<br>
